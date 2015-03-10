@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr30Sc6HJQ3Y58rDqpb9fKJOEXcGENNp4"></script>
+	<script src="js/custom-map.js"></script>
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+	<input type="button" value="Show My Location" id="text1">
+	<select name="QuickFind" id="quickfind" title="QuickFind" onchange="getValue()" value="sadfsadfaf">
+		<option value="#" title="QuickFind">Find A Location</option>
+		<option value="tennis" title="Tennis and Basketball Courts">Tennis & Basketball Courts</option>
+		<option value="pio" title="PIO & Student Services">PIO & Student Services</option>
+		<option value="south" title="South Parking Lot">South Parking Lot</option>
+	</select>
+	<div id="box">Click on a<img src="images/marker.png" class="marker">red pointer to get directions and more information</div>
+	<div id="map-canvas" style="background-color: #BEDCED;"></div>
+</body>
+</html>
